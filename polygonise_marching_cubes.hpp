@@ -374,7 +374,6 @@ typedef std::function<float(const glm::vec3&)> Sampler;
  * \brief Polygonise a single Cube.
  *
  * \param cube Cube which to polygnise.
- * \param sampler Sampler for determining iso value for given xyz coordinate.
  * \param iso ISO value to sample against.
  * \param out Resulting vertices outputted.
  * \return Number of added triangles in out.
